@@ -44,5 +44,15 @@ public class ParkingTest {
         Assert.assertEquals(expected, actual, 0.1);
     }
 
-    
+    @Test
+    public testBillForMonthlyPass(){
+        //Expected
+        double expected = 0;
+        //Actual
+        Car c1 = new Car(123);
+        p.registerCar(c1, true, 0);
+        double actual = p.getTotalCharges(car);
+
+        Assert.assertEquals(expected, actual, 0.1);
+    }
 }

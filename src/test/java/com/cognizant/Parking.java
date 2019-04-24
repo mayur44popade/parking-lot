@@ -33,6 +33,8 @@ public class Parking {
 
     //This method returns the number of hours the car is parked
     public double unParkCar(Car car, double outTime){
-        return outTime - parkedCars.get(car);
+        double hoursParked = outTime - parkedCars.get(car);
+        parkedCars.remove(car);
+        return hoursParked;
     }
 }
