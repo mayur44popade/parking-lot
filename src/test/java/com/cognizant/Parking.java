@@ -6,6 +6,7 @@ public class Parking {
 
     private Map<Car, Boolean> registeredCars = new HashMap<>();
     private Map<Car, Double> parkedCars = new HashMap<>();
+    private final double perHourCharges = 5;
 
     public void registerCar(Car car, boolean monthlyPassStatus, double inTime){
         if(monthlyPassStatus == true){
@@ -36,5 +37,19 @@ public class Parking {
         double hoursParked = outTime - parkedCars.get(car);
         parkedCars.remove(car);
         return hoursParked;
+    }
+
+    public double getTotalCharges(Car car, double outTime){
+        if(registeredCars.containsKey(car)){
+            if(registeredCars.get(car) == true){
+                return 0;
+            }
+        }else{
+            if(parkedCars.containsKey(car)){
+                double inTime = parkedCars.get(car);
+                return perHourCharges * (outTime - inTime);
+            }
+        }
+        return 100;
     }
 }

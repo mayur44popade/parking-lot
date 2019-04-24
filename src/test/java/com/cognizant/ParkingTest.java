@@ -45,13 +45,27 @@ public class ParkingTest {
     }
 
     @Test
-    public testBillForMonthlyPass(){
+    public void testBillForMonthlyPass(){
         //Expected
         double expected = 0;
         //Actual
         Car c1 = new Car(123);
         p.registerCar(c1, true, 0);
-        double actual = p.getTotalCharges(car);
+        double outTime = 5;
+        double actual = p.getTotalCharges(c1, outTime);
+
+        Assert.assertEquals(expected, actual, 0.1);
+    }
+
+    @Test
+    public void testBillForLessThanSixHours(){
+        //Expected
+        double expected = 20;
+        //Actual
+        Car c1 = new Car(123);
+        p.registerCar(c1, false, 0);
+        double outTime = 4;
+        double actual = p.getTotalCharges(c1, outTime);
 
         Assert.assertEquals(expected, actual, 0.1);
     }
