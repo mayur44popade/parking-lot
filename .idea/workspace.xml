@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3198b3ea-a307-415f-8932-2946b1933f4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cognizant/Parking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cognizant/Parking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cognizant/ParkingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cognizant/ParkingTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/cognizant/ParkingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="290">
+              <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -171,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ParkingTest.testBillForLessThanSixHours">
+  <component name="RunManager" selected="JUnit.ParkingTest.testBillForMoreThanSixHours">
     <configuration name="ParkingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
@@ -183,22 +182,6 @@
       <option name="PACKAGE_NAME" value="com.cognizant" />
       <option name="MAIN_CLASS_NAME" value="com.cognizant.ParkingTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParkingTest.changeParkingCarStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cognizant.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cognizant" />
-      <option name="MAIN_CLASS_NAME" value="com.cognizant.ParkingTest" />
-      <option name="METHOD_NAME" value="changeParkingCarStatus" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -235,6 +218,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ParkingTest.testBillForMoreThanSixHours" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cognizant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cognizant" />
+      <option name="MAIN_CLASS_NAME" value="com.cognizant.ParkingTest" />
+      <option name="METHOD_NAME" value="testBillForMoreThanSixHours" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ParkingTest.testTimeTheCarIsParkedFor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
@@ -253,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParkingTest.testBillForMoreThanSixHours" />
         <item itemvalue="JUnit.ParkingTest.testBillForLessThanSixHours" />
         <item itemvalue="JUnit.ParkingTest.testBillForMonthlyPass" />
         <item itemvalue="JUnit.ParkingTest.testTimeTheCarIsParkedFor" />
         <item itemvalue="JUnit.ParkingTest" />
-        <item itemvalue="JUnit.ParkingTest.changeParkingCarStatus" />
       </list>
     </recent_temporary>
   </component>
@@ -275,9 +274,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ParkingTest_registerCarAndCheckIfItExists - 2019.04.24 at 15h 57m 28s.xml">
-      <configuration name="ParkingTest.registerCarAndCheckIfItExists" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ParkingTest - 2019.04.24 at 15h 57m 54s.xml">
       <configuration name="ParkingTest" configurationId="JUnit" />
     </history-entry>
@@ -304,6 +300,9 @@
     </history-entry>
     <history-entry file="ParkingTest_testBillForLessThanSixHours - 2019.04.24 at 16h 45m 54s.xml">
       <configuration name="ParkingTest.testBillForLessThanSixHours" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParkingTest_testBillForMoreThanSixHours - 2019.04.24 at 16h 47m 00s.xml">
+      <configuration name="ParkingTest.testBillForMoreThanSixHours" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -398,8 +397,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cognizant/ParkingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="290">
+          <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

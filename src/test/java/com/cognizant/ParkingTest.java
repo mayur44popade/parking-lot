@@ -69,4 +69,17 @@ public class ParkingTest {
 
         Assert.assertEquals(expected, actual, 0.1);
     }
+
+    @Test
+    public void testBillForMoreThanSixHours(){
+        //Expected
+        double expected = 30;
+        //Actual
+        Car c1 = new Car(123);
+        p.registerCar(c1, false, 0);
+        double outTime = 8;
+        double actual = p.getTotalCharges(c1, outTime);
+
+        Assert.assertEquals(expected, actual, 0.1);
+    }
 }
