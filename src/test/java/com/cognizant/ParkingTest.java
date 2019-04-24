@@ -1,22 +1,28 @@
 package com.cognizant;
 
+import com.cognizant.Parking;
 import org.junit.Test;
 import org.junit.Assert;
 public class ParkingTest {
 
-    public void setUp(){
-        Parking p = new Parking();
-    }
+    Parking p = new Parking();
 
     @Test
     public void registerCarAndCheckIfItExists(){
         //Expected
-        Car c1 = new Car(123, 0);
-        p.registerCar();
-        boolean expected = p.isRegistered();
-
-        boolean actual = true;
+        boolean expected= true;
+        //Actual
+        Car c1 = new Car(123, true);
+        p.registerCar(c1);
+        boolean actual = p.isRegistered(c1);
 
         Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void changeParkingCarStatus(){
+        //Expected
+        boolean monthlyPass = false;
+        
     }
 }
