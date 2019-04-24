@@ -10,6 +10,13 @@ public class ParkingTest {
 
     @Test
     public void registerCarAndCheckIfItExists(){
-        
+        //Expected
+        Car c1 = new Car(123, 0);
+        p.registerCar();
+        boolean expected = p.isRegistered();
+
+        boolean actual = true;
+
+        Assert.assertEquals(expected, actual);
     }
 }
