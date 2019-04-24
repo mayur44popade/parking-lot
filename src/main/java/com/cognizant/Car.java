@@ -5,11 +5,9 @@ import java.util.Objects;
 public class Car {
 
     int licensePlateNumber;
-    boolean monthlyPassStatus;
 
-    public Car(int number, boolean status){
+    public Car(int number){
         this.licensePlateNumber = number;
-        this.monthlyPassStatus = status;
     }
 
     public int getLicensePlateNumber() {
@@ -18,14 +16,6 @@ public class Car {
 
     public void setLicensePlateNumber(int licensePlateNumber) {
         this.licensePlateNumber = licensePlateNumber;
-    }
-
-    public boolean isMonthlyPassStatus() {
-        return monthlyPassStatus;
-    }
-
-    public void setMonthlyPassStatus(boolean monthlyPassStatus) {
-        this.monthlyPassStatus = monthlyPassStatus;
     }
 
     @Override
