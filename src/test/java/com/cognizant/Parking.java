@@ -7,6 +7,7 @@ public class Parking {
     private Map<Car, Boolean> registeredCars = new HashMap<>();
     private Map<Car, Double> parkedCars = new HashMap<>();
     private final double perHourCharges = 5;
+    private final double maxChargePerDay = 30;
 
     public void registerCar(Car car, boolean monthlyPassStatus, double inTime){
         if(monthlyPassStatus == true){
@@ -47,7 +48,13 @@ public class Parking {
         }else{
             if(parkedCars.containsKey(car)){
                 double inTime = parkedCars.get(car);
-                return perHourCharges * (outTime - inTime);
+                double parkedHours = outTime - inTime;
+                double charges = perHourCharges * parkedHours;
+                if(charges <= maxChargePerDay){
+                    return charges;
+                }else{
+                    return maxChargePerDay;
+                }
             }
         }
         return 100;

@@ -3,6 +3,7 @@ package com.cognizant;
 import com.cognizant.Parking;
 import org.junit.Test;
 import org.junit.Assert;
+
 public class ParkingTest {
 
     Parking p = new Parking();
@@ -78,6 +79,19 @@ public class ParkingTest {
         Car c1 = new Car(123);
         p.registerCar(c1, false, 0);
         double outTime = 8;
+        double actual = p.getTotalCharges(c1, outTime);
+
+        Assert.assertEquals(expected, actual, 0.1);
+    }
+
+    @Test
+    public void testBillForSixHours(){
+        //Expected
+        double expected = 30;
+        //Actual
+        Car c1 = new Car(123);
+        p.registerCar(c1, false, 0);
+        double outTime = 6;
         double actual = p.getTotalCharges(c1, outTime);
 
         Assert.assertEquals(expected, actual, 0.1);

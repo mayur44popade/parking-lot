@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3198b3ea-a307-415f-8932-2946b1933f4c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cognizant/Parking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cognizant/Parking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cognizant/ParkingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cognizant/ParkingTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/cognizant/ParkingTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="290">
-              <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+              <caret line="97" column="5" lean-forward="true" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cognizant/Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state>
+              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
               <folding>
                 <element signature="e#126#127#0" expanded="true" />
                 <element signature="e#174#175#0" expanded="true" />
@@ -60,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/cognizant/Parking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="49" column="59" lean-forward="true" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
+            <state relative-caret-position="341">
+              <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
               <folding>
                 <element signature="e#668#669#0" expanded="true" />
                 <element signature="e#715#716#0" expanded="true" />
@@ -170,7 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ParkingTest.testBillForMoreThanSixHours">
+  <component name="RunManager" selected="JUnit.ParkingTest">
     <configuration name="ParkingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
@@ -234,7 +235,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParkingTest.testTimeTheCarIsParkedFor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParkingTest.testBillForSixHours" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
         <pattern>
@@ -244,7 +245,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.cognizant" />
       <option name="MAIN_CLASS_NAME" value="com.cognizant.ParkingTest" />
-      <option name="METHOD_NAME" value="testTimeTheCarIsParkedFor" />
+      <option name="METHOD_NAME" value="testBillForSixHours" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -252,11 +253,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParkingTest" />
+        <item itemvalue="JUnit.ParkingTest.testBillForSixHours" />
         <item itemvalue="JUnit.ParkingTest.testBillForMoreThanSixHours" />
         <item itemvalue="JUnit.ParkingTest.testBillForLessThanSixHours" />
         <item itemvalue="JUnit.ParkingTest.testBillForMonthlyPass" />
-        <item itemvalue="JUnit.ParkingTest.testTimeTheCarIsParkedFor" />
-        <item itemvalue="JUnit.ParkingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -274,15 +275,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ParkingTest - 2019.04.24 at 15h 57m 54s.xml">
-      <configuration name="ParkingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParkingTest - 2019.04.24 at 15h 58m 26s.xml">
-      <configuration name="ParkingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParkingTest - 2019.04.24 at 16h 13m 00s.xml">
-      <configuration name="ParkingTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ParkingTest_testTimeTheCarIsParkedFor - 2019.04.24 at 16h 30m 21s.xml">
       <configuration name="ParkingTest.testTimeTheCarIsParkedFor" configurationId="JUnit" />
     </history-entry>
@@ -303,6 +295,15 @@
     </history-entry>
     <history-entry file="ParkingTest_testBillForMoreThanSixHours - 2019.04.24 at 16h 47m 00s.xml">
       <configuration name="ParkingTest.testBillForMoreThanSixHours" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParkingTest_testBillForMoreThanSixHours - 2019.04.24 at 16h 51m 25s.xml">
+      <configuration name="ParkingTest.testBillForMoreThanSixHours" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParkingTest_testBillForSixHours - 2019.04.24 at 16h 51m 54s.xml">
+      <configuration name="ParkingTest.testBillForSixHours" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParkingTest - 2019.04.24 at 16h 52m 06s.xml">
+      <configuration name="ParkingTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -358,10 +359,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cognizant/Stories.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="69" lean-forward="true" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cognizant/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state>
+          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
           <folding>
             <element signature="e#126#127#0" expanded="true" />
             <element signature="e#174#175#0" expanded="true" />
@@ -375,17 +383,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cognizant/Stories.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="69" lean-forward="true" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cognizant/Parking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="49" column="59" lean-forward="true" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
+        <state relative-caret-position="341">
+          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
           <folding>
             <element signature="e#668#669#0" expanded="true" />
             <element signature="e#715#716#0" expanded="true" />
@@ -398,7 +399,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cognizant/ParkingTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
-          <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+          <caret line="97" column="5" lean-forward="true" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
