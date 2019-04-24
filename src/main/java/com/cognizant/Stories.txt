@@ -4,3 +4,4 @@ Acceptance Criteria:
 2. As a user I should get a bill when I leave.
 3. As a garage owner, I should charge users based on their pass type.
 4. As a garage owner, I should be able to change pass type for users.
+5. As a garage owner, I should be able to see total time car is parked.
