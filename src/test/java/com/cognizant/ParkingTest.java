@@ -22,7 +22,12 @@ public class ParkingTest {
     @Test
     public void changeParkingCarStatus(){
         //Expected
-        boolean monthlyPass = false;
-        
+        boolean expected = false;
+        //Actual
+        Car c1 = new Car(123, true);
+        p.changePassStatus(c1, false);
+        boolean actual = p.getPassStatus(c1);
+
+        Assert.assertEquals(expected, actual);
     }
 }
